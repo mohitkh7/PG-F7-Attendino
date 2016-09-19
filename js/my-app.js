@@ -137,7 +137,7 @@ var myApp = new Framework7({
     pushState: true,
     
     // to make left panel swipable
-    swipePanel: 'left';
+    swipePanel: 'left',
  
     // Hide and show indicator during ajax requests
     onAjaxStart: function (xhr) {
