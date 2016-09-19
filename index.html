@@ -17,6 +17,21 @@
     <link rel="stylesheet" href="dist/css/my-app.css">
   </head>
   <body>
+    <div class="panel-overlay"></div>
+ 
+    <!-- Left Panel with Reveal effect -->
+    <div class="panel panel-left panel-reveal">
+      <div class="content-block">
+        <p>Menu</p>
+        <p>contact us </p>
+        <p>About us </p>
+        <!-- Click on link with "close-panel" class will close panel -->
+        <p><a href="#" class="close-panel">Close me</a></p>
+        <!-- Click on link with "open-panel" and data-panel="right" attribute will open Right panel -->
+        <!--<p><a href="#" data-panel="right" class="open-panel">Open Right Panel</a></p>-->
+      </div>
+    </div>
+    </div> <!-- close panel overlay -->
     <!-- Views -->
     <div class="views">
       <!-- Your main view, should have "view-main" class -->
@@ -32,7 +47,7 @@
                 
                 <div class="left">
                   <a href="#" class="link">
-                    <i class="icon icon-back"></i>
+                    <i class="icon icon-bars"></i>
                     <span>Back</span>
                 </div>
                 
