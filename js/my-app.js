@@ -144,3 +144,10 @@ var myApp = new Framework7({
         myApp.hideIndicator();
     }
 });   
+
+/* Intialize views */
+var mainView=myApp.addView('.view-main',{
+	dynamicNavbar: true
+})
+
+})
