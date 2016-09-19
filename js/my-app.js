@@ -135,6 +135,9 @@ var myApp = new Framework7({
  
     // If it is webapp, we can enable hash navigation:
     pushState: true,
+    
+    // to make left panel swipable
+    swipePanel: 'left';
  
     // Hide and show indicator during ajax requests
     onAjaxStart: function (xhr) {
