@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mohitkh7.mcbc" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>Tip Bru</name>
+<widget id="com.mohitkh7.F7" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>AppoCrafts</name>
     <description>
-        This is my First App.
+        This is a first app using F7.
     </description>
     <author email="mohit" href="http://github.com/mohitkh7">
         Mohit Khandelwal
