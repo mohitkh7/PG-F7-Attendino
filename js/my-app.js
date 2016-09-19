@@ -1,4 +1,4 @@
-// Initialize your app
+/*** // Initialize your app
 var tipBru = new Framework7({
     animateNavBackIcon: true,
     // Enable templates auto precompilation
@@ -128,4 +128,19 @@ function roundUp() {
 	document.getElementById('roundup').setAttribute("class", 'button button-raised button-fill color-pink');
 	document.getElementById('roundupcircle').setAttribute("class", 'fa fa-arrow-circle-up fa-2x color-pink');
 	
-}
+} */
+var myApp = new Framework7({
+    // Default title for modals
+    modalTitle: 'My App',
+ 
+    // If it is webapp, we can enable hash navigation:
+    pushState: true,
+ 
+    // Hide and show indicator during ajax requests
+    onAjaxStart: function (xhr) {
+        myApp.showIndicator();
+    },
+    onAjaxComplete: function (xhr) {
+        myApp.hideIndicator();
+    }
+});   
