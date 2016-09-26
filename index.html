@@ -6,67 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- Color theme for statusbar -->
-    <meta name="theme-color" content="#009688"><!-- Teal colour otherwise go with #00bcd4 cyan -->
+    <meta name="theme-color" content="#2196f3">
     <!-- Your app title -->
-    <title>Indore City Bus</title>
+    <title>My App</title>
     <!-- Path to Framework7 Library CSS, Material Theme -->
     <link rel="stylesheet" href="dist/css/framework7.material.min.css">
     <!-- Path to Framework7 color related styles, Material Theme -->
     <link rel="stylesheet" href="dist/css/framework7.material.colors.min.css">
     <!-- Path to your custom app styles-->
-    <link rel="stylesheet" href="css/my-app.css">
+    <link rel="stylesheet" href="dist/css/my-app.css">
   </head>
   <body class="theme-teal">
-    
-    <!-- Adding status overlay -->
-    <div class="statusbar-overlay"></div>
-	  
-    <!-- We are going to add left side panel -->
-    <!-- First, we need to add Panel's overlay that will overlays app while panel is opened -->
-    <div class="panel-overlay"></div>
- 
-    <!-- Left panel, let it be with reveal effect -->
-    <!--<div class="panel panel-left panel-reveal">
-        <div class="content-block">
-               <div class="list-block">
-                  <ul>
-
-                      <li class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
-                        <div class="item-inner">
-                           <div class="item-title">Home</div>
-                        </div>
-                      </li>
-			  
-                      <li>
-                      <a href="about.html" class="item-link item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
-                        <div class="item-inner">
-                          <div class="item-title">Instructions</div>
-                        </div>
-                      </a>
-                    </li>
-
-                      <li class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
-                        <div class="item-inner">
-                          <div class="item-title">About Us</div>
-                        </div>
-                      </li>
-
-	                    <li class="item-content">
-                        <div class="item-media"><i class="icon icon-f7"></i></div>
-                        <div class="item-inner">
-                          <div class="item-title">Contact Us</div>
-                        </div>
-                      </li>
-
-                  </ul>
-              </div>
-      </div>
-    </div> -->
-	
- 
     <!-- Views -->
     <div class="views">
       <!-- Your main view, should have "view-main" class -->
@@ -79,40 +29,35 @@
             <!-- Top Navbar. In Material theme it should be inside of the page-->
             <div class="navbar">
               <div class="navbar-inner">
-                <div class="left">
-                    <!-- 
-                    Right link contains only icon - additional "icon-only" class
-                    Additional "open-panel" class tells app to open panel when we click on this link
-                    -->
-                    <a href="#" class="link icon-only open-panel"><i class="icon icon-bars"></i></a>
-                </div>
-                <div class="center">Indore City Bus</div>
+                <div class="center">City Bus Indore</div>
               </div>
             </div>
  
             <!-- Scrollable page content -->
             <div class="page-content">
-              <p>Page content goes here</p>
+              <p>Appocrafts are proud to announce there new city bus app.</p>
               <!-- Link to another page -->
               <a href="about.html">About app</a>
             </div>
-            
-            <!-- Bottom Toolbar. In Material theme it should be inside of the page-->
-            <div class="toolbar toolbar-bottom">
+		  
+	    <!-- Bottom Toolbar. In Material theme it should be inside of the page-->
+            <div class="toolbar">
               <div class="toolbar-inner">
-                <!-- Toolbar links -->
+                <!-- Toolbar links 
                 <a href="#" class="link">Link 1</a>
                 <a href="#" class="link">Link 2</a>
+		-->
+		      <p>Developed By Appocrafts</p>
               </div>
             </div>
-            
+		  
           </div>
         </div>
       </div>
     </div>
     <!-- Path to Framework7 Library JS-->
-    <script type="text/javascript" src="dist/js/framework7.min.js"></script>
+    <script type="text/javascript" src="path/to/framework7.min.js"></script>
     <!-- Path to your app js-->
-    <script type="text/javascript" src="js/my-app.js"></script>
+    <script type="text/javascript" src="path/to/my-app.js"></script>
   </body>
 </html> 
