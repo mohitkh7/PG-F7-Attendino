@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, minimal-ui">
     <meta name="apple-mobile-web-app-capable" content="yes">
     <!-- Color theme for statusbar -->
-    <meta name="theme-color" content="#2196f3">
+    <meta name="theme-color" content="#009688"><!-- Teal colour otherwise go with #00bcd4 cyan -->
     <!-- Your app title -->
     <title>Indore City Bus</title>
     <!-- Path to Framework7 Library CSS, Material Theme -->
@@ -17,6 +17,18 @@
     <link rel="stylesheet" href="css/my-app.css">
   </head>
   <body>
+    
+    <!-- We are going to add left side panel -->
+    <!-- First, we need to add Panel's overlay that will overlays app while panel is opened -->
+    <div class="panel-overlay"></div>
+ 
+    <!-- Left panel, let it be with reveal effect -->
+    <div class="panel panel-left panel-reveal">
+        <div class="content-block">
+           <p>Left Panel content here</p>
+      </div>
+    </div>
+ 
     <!-- Views -->
     <div class="views">
       <!-- Your main view, should have "view-main" class -->
@@ -40,6 +52,13 @@
               </div>
             </div>
  
+            <!-- Scrollable page content -->
+            <div class="page-content">
+              <p>Page content goes here</p>
+              <!-- Link to another page -->
+              <a href="about.html">About app</a>
+            </div>
+            
             <!-- Bottom Toolbar. In Material theme it should be inside of the page-->
             <div class="toolbar toolbar-bottom">
               <div class="toolbar-inner">
@@ -48,13 +67,7 @@
                 <a href="#" class="link">Link 2</a>
               </div>
             </div>
- 
-            <!-- Scrollable page content -->
-            <div class="page-content">
-              <p>Page content goes here</p>
-              <!-- Link to another page -->
-              <a href="about.html">About app</a>
-            </div>
+            
           </div>
         </div>
       </div>
