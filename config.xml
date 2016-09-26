@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mohitkh7.F7" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>AppoCrafts</name>
+<widget id="com.mohitkh7.ICB1" version="1.0.2" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Indore City Bus</name>
     <description>
-        This is a first app using F7.
+        This is a Indore City bus app.
     </description>
     <author email="mohit" href="http://github.com/mohitkh7">
         Mohit Khandelwal
