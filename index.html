@@ -16,8 +16,10 @@
     <!-- Path to your custom app styles-->
     <link rel="stylesheet" href="css/my-app.css">
   </head>
-  <body>
+  <body class="theme-teal">
     
+    <!-- Adding status overlay -->
+    <div class="statusbar-overlay"></div>
     <!-- We are going to add left side panel -->
     <!-- First, we need to add Panel's overlay that will overlays app while panel is opened -->
     <div class="panel-overlay"></div>
@@ -39,9 +41,9 @@
           <div data-page="index" class="page">
  
             <!-- Top Navbar. In Material theme it should be inside of the page-->
-            <div class="navbar">
+            <div class="navbar theme-teal">
               <div class="navbar-inner">
-                <div class="right">
+                <div class="left">
                     <!-- 
                     Right link contains only icon - additional "icon-only" class
                     Additional "open-panel" class tells app to open panel when we click on this link
