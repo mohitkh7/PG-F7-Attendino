@@ -149,8 +149,12 @@ var myApp = new Framework7({
 });   
 
 /* Intialize views */
-var mainView=myApp.addView('.view-main',{
-	dynamicNavbar: true
-})
+var mainView=myApp.addView('.view-main');
 
+// Now we need to run the code that will be executed only for About page.
+ 
+// Option 1. Using page callback for page (for "about" page in this case) (recommended way):
+myApp.onPageInit('about', function (page) {
+  // Do something here for "about" page
+  
 })
