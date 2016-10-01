@@ -138,6 +138,9 @@ var myApp = new Framework7({
     
     // to make left panel swipable
     swipePanel: 'left',
+	
+	// to make smart select as a search bar
+	smartSelectSearchbar: true,
  
     // Hide and show indicator during ajax requests
     onAjaxStart: function (xhr) {
